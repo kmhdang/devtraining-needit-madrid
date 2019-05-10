@@ -25,6 +25,6 @@
                 <element inactive_on_update="false" label="Other" sequence="6" value="other"/>
             </choice>
         </element>
-        <element label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var date = new GlideDateTime();&#13;&#10;&#9;date.addDaysUTC(20);&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:var date = new GlideDateTime(); date.addDaysUTC(1); date.getDisplayValue();" dynamic_default_value="0818128adb917300ba880d53ca961987" label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time" use_dynamic_default="true"/>
     </element>
 </database>

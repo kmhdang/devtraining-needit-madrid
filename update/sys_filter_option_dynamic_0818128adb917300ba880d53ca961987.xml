@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_filter_option_dynamic">
+    <sys_filter_option_dynamic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_for_default>true</available_for_default>
+        <available_for_filter>false</available_for_filter>
+        <available_for_ref_qual>false</available_for_ref_qual>
+        <field_type display_value="Date/Time">a54edbb1c0a80006014da86b91525bf3</field_type>
+        <label>Tomorrow </label>
+        <order/>
+        <roles/>
+        <script>var date = new GlideDateTime(); date.addDaysUTC(1); date.getDisplayValue();</script>
+        <script_reference_id/>
+        <script_reference_table/>
+        <sys_class_name>sys_filter_option_dynamic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-10 10:18:14</sys_created_on>
+        <sys_id>0818128adb917300ba880d53ca961987</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Tomorrow </sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_filter_option_dynamic_0818128adb917300ba880d53ca961987</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-10 10:21:44</sys_updated_on>
+        <table/>
+        <table_containing_filter/>
+    </sys_filter_option_dynamic>
+</record_update>
